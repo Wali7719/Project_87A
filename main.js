@@ -7,7 +7,7 @@ var canvas = new fabric.Canvas('myCanvas')
 block_image_width = 350;
 block_image_height = 430;
 
-var block_image_object= "";
+var block_img_object= "";
 
 function new_image(get_image)
 {
@@ -22,7 +22,7 @@ function new_image(get_image)
         top:block_y,
         left:block_x    
         });
-        canvas.add(block_image_object);
+        canvas.add(block_img_object);
 
     })
 }
